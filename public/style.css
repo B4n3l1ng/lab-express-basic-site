@@ -1,0 +1,25 @@
+body {
+    margin: 0%;
+    padding : 0%;
+    font-family: "Verdana";
+    text-align: center;
+    color: black;
+    background-color: silver;
+}
+
+#pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+#pictures img {
+    width: 30%;
+    height: 30%;
+}
+
+.headshot {
+    width: 15%;
+}
+
